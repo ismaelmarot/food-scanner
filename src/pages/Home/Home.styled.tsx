@@ -5,5 +5,5 @@ import { size } from '../../helpers/setSize';
 export const HomeWrapper = styled.div`
     ${flex('column', 'flex-start', 'center')};
     ${size('100vw', '100vh')};
-    padding: .3rem;
+    padding: .5rem;
 `;
