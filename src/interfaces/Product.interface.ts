@@ -1,5 +1,4 @@
 import type { NutrimentsProps } from './Nutriments.interface';
-
 export interface ProductProps {
     product_name: string;
     brands: string;

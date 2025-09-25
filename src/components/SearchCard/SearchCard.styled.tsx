@@ -8,6 +8,7 @@ export const SearchCardWrapper = styled(Card)`
     ${flex('column', 'space-between', 'center')};
     ${size('100%', '100%')};
     padding-bottom: 10rem;
+    border-radius: 1rem;
     background-color: ${COLORS.darkGrey};
 `;
 
