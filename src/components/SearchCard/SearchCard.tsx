@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import { Card, Form, Button } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 import type { SearchCardProps } from '../../interfaces/SearchCard.interface';
 import { SearchCardWrapper } from "./SearchCard.styled";
 
