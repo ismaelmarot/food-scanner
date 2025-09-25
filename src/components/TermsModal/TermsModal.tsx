@@ -1,9 +1,12 @@
 import React from 'react';
+import packageJson from '../../../package.json';
 import { Modal, Button } from 'react-bootstrap';
 import { getCurrentYear } from '../../helpers/getCurrentYear';
 import type { TermsModalProps } from '../../interfaces/TermsModal.interface';
 import { SpanStyled, StyledModalBody } from './TermsModal.styled';
 import { AStyled } from '../LegalModal/LegalModal.styled';
+
+const appName = packageJson.name;
 
 const TermsModal: React.FC<TermsModalProps> = ({ show, onClose }) => {
     return (
@@ -12,7 +15,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ show, onClose }) => {
             <Modal.Title>Términos de uso</Modal.Title>
         </Modal.Header>
         <StyledModalBody>  
-            <p> Bienvenido a <SpanStyled>Products Entry App</SpanStyled>.</p>
+            <p> Bienvenido a <SpanStyled>{ appName }</SpanStyled>.</p>
             <p>Al acceder o utilizar este <i>Sitio/Aplicación</i>, acepta cumplir con estos Términos de uso. Si no está de acuerdo con ellos, le recomendamos no utilizar este <i>Sitio Web/Aplicación</i>.</p>   
             <p>1. Propósito:
                 Este <i>Sitio/Aplicación</i> tiene fines informativos y personales, mostrando proyectos desarrollados por Ismael Marot.

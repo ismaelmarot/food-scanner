@@ -17,6 +17,7 @@ const Home: React.FC = () => {
         <ProductDetails product={product} goBack={() => setProduct(null)} />
       )}
     </HomeWrapper>
+  
   );
 };
 

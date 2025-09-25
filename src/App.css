@@ -1,7 +1,5 @@
 #root {
-  padding: 2rem;
-  text-align: center;
-  border: .2rem solid red;
   height: 100vh;
-  padding: 0;
+  text-align: center;
+  background-color: rgba(164, 194, 168, 1);
 }
