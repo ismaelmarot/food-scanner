@@ -6,7 +6,7 @@ export const FooterStyled = styled.footer`
     padding-top: .5rem;
     border-top: 1px solid ${COLORS.black};
     font-size: .8rem;
-    background-color: ${COLORS.darkGrey};
+    background-color: ${COLORS.background};
 `
 export const Button = styled.button`
     color: ${COLORS.black};

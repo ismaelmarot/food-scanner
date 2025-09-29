@@ -9,13 +9,13 @@ export const SearchCardWrapper = styled(Card)`
     ${size('100%', '100%')};
     padding-bottom: 10rem;
     border-radius: 1rem;
-    background-color: ${COLORS.darkGrey};
+    background-color: ${COLORS.surface};
 `;
 
 export const H1 = styled.h1`
     margin: 2rem 0 3rem;
     font-size: 2.5rem;
-    color: ${COLORS.grey};
+    color: ${COLORS.text};
 `;
 
 export const FormStyled = styled(Form)`
@@ -33,5 +33,5 @@ export const ButtonStyled = styled(Button)`
     margin-top: 3rem;
     font-size: 3rem;
     border: none;
-    background-color: ${COLORS.grey};
+    background-color: ${COLORS.accent};
 `;

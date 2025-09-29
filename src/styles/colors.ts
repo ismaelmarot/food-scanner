@@ -8,7 +8,7 @@ export const COLORS = {
     lightGrey: 'rgba(172, 235, 152, 1)',
     red: '#f93030ff',
 
-     background: 'rgb(249, 245, 240)',   // 60% - Fondo base
+    background: 'rgb(249, 245, 240)',   // 60% - Fondo base
     surface:    'rgb(242, 234, 211)',   // 30% - Tarjetas, paneles
     accent:     'rgb(244, 153, 26)',    // 10% - Botones, highlights
     text:       'rgb(52, 79, 31)',      // Texto principal
